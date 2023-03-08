@@ -66,6 +66,7 @@ const sidebars = {
                             label: 'Token Generation Event',
                             type: 'category',
                             items: [
+                                'neutron/token-generation-event/overview',
                                 {
                                     type: 'category',
                                     label: 'Credits',
@@ -81,6 +82,15 @@ const sidebars = {
                                     items: [
                                         'neutron/token-generation-event/oracle/overview',
                                         'neutron/token-generation-event/oracle/queries',
+                                    ]
+                                },
+                                {
+                                    type: 'category',
+                                    label: 'Airdrop',
+                                    items: [
+                                        'neutron/token-generation-event/airdrop/overview',
+                                        'neutron/token-generation-event/airdrop/messages',
+                                        'neutron/token-generation-event/airdrop/queries'
                                     ]
                                 }
                             ],
